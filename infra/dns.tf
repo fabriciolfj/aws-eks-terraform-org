@@ -50,6 +50,6 @@ locals {
 #    evaluate_target_health = true
 #  }
 
-  depends_on = [module.alb_ingress, kubernetes_ingress_v1.app]
+#  depends_on = [module.alb_ingress, kubernetes_ingress_v1.app]
 
-}
+#}
